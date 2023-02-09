@@ -1,0 +1,55 @@
+@import "base/fonts";
+@import "base/bootstrap-reboot";
+@import "base/vars";
+@import "base/icons";
+
+@import "libs/swiper";
+
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/brands";
+@import "blocks/about";
+@import "blocks/features";
+@import "blocks/benefits";
+@import "blocks/questions";
+@import "blocks/facts";
+@import "blocks/mail";
+@import "blocks/plans";
+@import "blocks/team";
+@import "blocks/reviews";
+@import "blocks/blog";
+@import "blocks/footer";
+
+@import "blocks/reviews";
+
+@import "blocks/container";
+@import "blocks/buttons";
+
+.title {
+  font-size: 45px;
+  font-family: "Gilroy-Bold";
+
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+.swiper-pagination-bullet {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #dddddd;
+  margin: 30px 5px 5px 0;
+  cursor: pointer;
+  vertical-align: middle;
+  &-active {
+    background: #f25822;
+    width: 12px;
+    height: 12px;
+  }
+}

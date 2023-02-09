@@ -1,0 +1,16 @@
+.about {
+  background: #fafafa;
+  padding: 100px 0;
+}
+
+.about__wrapper {
+  display: flex;
+  .content__wrapper {
+    display: inline-block;
+    margin-top: 40px;
+  }
+}
+
+.about__img {
+  display: flex;
+}

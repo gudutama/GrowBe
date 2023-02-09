@@ -1,0 +1,39 @@
+.benefits {
+  text-align: center;
+  padding: 70px 0;
+  background-color: #fafafa;
+}
+
+.benefits__items {
+  display: flex;
+  gap: 30px;
+}
+
+.benefits-item {
+  width: 370px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  text-align: center;
+  transition: 0.3s;
+  &:hover {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.benefits-item__title {
+  font-size: 24px;
+  font-family: "Gilroy-Bold";
+  margin-top: 25px;
+}
+
+.benefits-item__text {
+  font-size: 15px;
+  color: #aaaaaa;
+  margin: 25px 0;
+}
+
+.benefits-item__img {
+  object-fit: contain;
+  height: 270px;
+  width: 100%;
+}

@@ -1,0 +1,29 @@
+.blog {
+  .swiper-slide-prev,
+  .swiper-slide-next {
+    opacity: 0.5;
+  }
+}
+
+.blog__item-title {
+  font-size: 24px;
+  font-family: "Gilroy-Bold";
+}
+.blog__item-text {
+  font-size: 16px;
+  color: #666;
+}
+.blog__item-link {
+  font-size: 11px;
+  text-decoration: none;
+  color: #f25822;
+  font-family: "Gilroy-Bold";
+}
+
+.blog__item {
+  display: flex;
+}
+
+.blog__item-content {
+  display: inline-block;
+}

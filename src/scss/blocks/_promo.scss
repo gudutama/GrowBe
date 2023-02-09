@@ -1,0 +1,67 @@
+.promo {
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.promo__wrapper {
+  max-width: 550px;
+  width: 100%;
+  position: relative;
+  &::before {
+    content: "";
+    width: 770px;
+    height: 370px;
+    position: absolute;
+    top: -35px;
+    left: -130px;
+    background: url(../img/promo/polygons.svg);
+  }
+}
+
+.promo__title {
+  font-size: 60px;
+  font-family: "Gilroy-Bold";
+  margin-bottom: 20px;
+
+  &::before {
+    content: "";
+    width: 321px;
+    z-index: -1;
+    height: 76px;
+    position: absolute;
+    top: 75px;
+    left: -25px;
+    background: url(../img/promo/Ellipse.svg);
+  }
+}
+
+.promo__text {
+  font-size: 20px;
+  color: #888888;
+  font-weight: 500;
+  padding-bottom: 20px;
+  font-family: "Gilroy-Medium";
+}
+
+.promo__img {
+  position: absolute;
+  right: -400px;
+  top: -100px;
+}
+
+.polygon__wrapper {
+  &:nth-child(1) {
+    .promo__img {
+      position: absolute;
+      top: 90px;
+      left: -100px;
+    }
+  }
+  &:nth-child(2) {
+    .promo__img {
+      position: absolute;
+      top: 450px;
+      left: 500px;
+    }
+  }
+}
